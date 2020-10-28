@@ -47,6 +47,6 @@ ul {
 }
 
 .drop {
-    /* display: none; */
+    display: none;
     position: absolute;
 }
