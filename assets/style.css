@@ -49,4 +49,9 @@ ul {
 .drop {
     display: none;
     position: absolute;
+    transform: translateX(-25%);
+}
+
+.drop_active {
+    display: block;
 }
