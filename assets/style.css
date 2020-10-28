@@ -44,3 +44,7 @@ ul {
     width: 600px;
     display: flex;
 }
+
+.drop {
+    display: none;
+}
