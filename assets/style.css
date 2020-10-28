@@ -4,7 +4,43 @@
     box-sizing: border-box;
 }
 
+header {
+}
+
+header ul li {
+    display: inline-block;
+    margin: 25px;
+}
+
+a {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 .container {
     width: 1140px;
+    height: 100px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_menu {
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left_menu img {
+    height: 48px;
+    width: 40px;
+}
+
+.right_menu {
+    width: 600px;
+    display: flex;
 }
