@@ -10,6 +10,7 @@ header {
 header ul li {
     display: inline-block;
     margin: 25px;
+    position: relative;
 }
 
 a {
@@ -46,5 +47,6 @@ ul {
 }
 
 .drop {
-    display: none;
+    /* display: none; */
+    position: absolute;
 }
